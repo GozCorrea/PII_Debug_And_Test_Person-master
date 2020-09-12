@@ -18,8 +18,7 @@ namespace Tests
             Person test = new Person("John Doe", "4.604.998-7");
             test.ID = "46049986";
             const string expected = "46049987";
-            const string actual = "46049987";
-            Assert.Equals (expected, actual);
+            Assert.Equals (expected, "46049987");
         }
     }
 }
